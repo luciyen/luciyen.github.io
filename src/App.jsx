@@ -98,7 +98,7 @@ function App() {
                           </a>
                         </li>
                         <li>
-                          <a href="https://www.linkedin.com/feed/" className="transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+                          <a href="https://www.linkedin.com/in/jahntibayan/" className="transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                             <img src={LinkedIn} className="w-10" alt="LinkedIn Icon" />
                           </a>
                         </li>
