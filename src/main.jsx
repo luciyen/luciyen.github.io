@@ -6,7 +6,7 @@ import './index.css';
 // Function to load Google Analytics script
 const loadGoogleAnalytics = () => {
   const script = document.createElement('script');
-  script.src = `https://www.googletagmanager.com/gtag/js?id=G-1WPX9D372W`;
+  script.src = `https://www.googletagmanager.com/gtag/js?id=G-0BQBT5XYCC`;
   script.async = true;
   document.head.appendChild(script);
 
@@ -14,7 +14,7 @@ const loadGoogleAnalytics = () => {
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-    gtag('config', 'G-1WPX9D372W');
+    gtag('config', 'G-0BQBT5XYCC');
   };
 };
 
