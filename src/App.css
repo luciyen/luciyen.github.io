@@ -1,0 +1,65 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #000000;
+    color: #fff;
+}
+
+.gradient-text {
+    -webkit-background-clip: text;
+    @apply bg-gradient-to-t from-green-400 to-lime-900 text-transparent; /* Gradient text style for h1 headings. */
+    overflow: hidden;
+    border-right: 2px solid #fff;
+    animation: typing-text steps(40) 3.5s forwards, blink ease 0.75s infinite;
+    text-wrap: nowrap;
+    display: inline-block;
+    width: max-content;
+    width: 0;
+}
+
+
+#skills {
+    padding: 64px 0;
+}
+
+
+/* Adjust the z-index and position to position the secong cherry blossom branch under the skills section.  */
+.skillsbg {
+    opacity: 44%;
+    z-index: -1;
+    position: absolute;
+    background-size: contain; 
+}
+
+
+/* Target About Me Section Separately to include a background photo (The cherry blossom)  */
+#aboutme {
+    padding: 64px 0; 
+    background-image: url('./assets/aboutmebg.png'); 
+    background-position: left bottom; 
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+
+/* Fixed issue where width causing oversized page  */
+.aboutheading {
+    max-width: 240px;
+}
+
+@keyframes typing-text {
+    from {
+        width: 0%;
+    } 
+    to {
+        width: 350px;
+    }
+}
+
+@keyframes typing-text {
+    to {
+        border-color: transparent;
+    }
+}
+
